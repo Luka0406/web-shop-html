@@ -1,0 +1,274 @@
+ :root{
+    /* --slide-font-color: slategrey;
+    --slide-font-color-darker: rgb(90, 101, 112); 
+    --radiusbordernav: 15px;
+    --height-of-linkssite: height: 500px; */
+    --border-color: rgb(93, 175, 241);
+}
+
+#icon{ 
+    max-width: 150px;
+    height: auto;
+}
+nav{
+    font-size: 20px;
+    /* border-radius: var(--radiusbordernav) var(--radiusbordernav) 0 0; */
+}
+.carousel-item img{
+    width: 100%;
+    opacity: 0.8;
+}
+.firstslide p{
+    color: slategrey;
+}
+.secondslide p{
+    color: rgb(138, 173, 238);
+}
+.thirdslide p{
+    color:white;
+}
+
+.carousel-caption p{
+    font-size: 500%;
+    font-family: "Audiowide", sans-serif;
+}
+.thirdslide strong{
+    color: rgb(56, 56, 56);
+}
+.firstslide strong{
+        color: white;
+}
+strong{
+    font-size: 100%;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+li a{
+    color: white !important;
+}
+.active{
+    color: black !important;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: auto;
+}
+header img{
+    max-width: 40px;
+    height: auto;
+}
+header p{
+    display: hidden;
+}
+.coachprofile{
+    border: 1px solid white;
+    max-width: 200px;
+    height: auto;
+    margin: auto;
+}
+#Cards .card-footer img{
+    max-width: 30px;
+    height: auto;
+}
+#Cards .card-footer a{
+    overflow: hidden;
+}
+#Cards .card-footer{
+    justify-content: space-evenly;
+}
+#Cards .card{
+    transition: transform ease 0.8s;
+    cursor: pointer;
+    height: 85%!important;
+}
+#Cards .card-body{
+    background: steelblue;
+}
+#Cards{
+    /* background-color: rgb(177, 174, 174)!important; */
+    position: relative;
+}
+#Cards .card:hover{
+    transform:scale(1.12,1.12)
+} 
+.backgroundstyle1{
+    /* background-color: red; */
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 30%;
+}
+@media screen and (max-width:1140px){
+    .backgroundstyle1{
+        display: none;
+    }
+    
+}
+.Contacttext{
+    clip-path: polygon(0 0, 95% 0, 90% 100%, 0 100%);
+}
+.Contacttext div, .Shoptext div{
+    max-width: 60%;
+}
+.Contacttext img{
+    max-width: 20%;
+    height: auto;
+}
+.Contacttext .linkstext{
+    background-color: steelblue;
+    border: 5px solid var(--border-color);
+    padding:40px;
+    border-radius: 70px 20px;
+}
+.Shoptext .linkstext{
+    background-color: steelblue;
+    border: 5px solid var(--border-color);
+    padding:40px;
+    border-radius: 20px 70px;
+}
+.linkstext a {
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.linkstext a:hover {
+    transform: translateY(-10px) scale(1.2);
+}
+.Shoptext{
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 5% 100%);
+}
+.Shoptext img, .Contacttext img{
+    max-width: 20%;
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+}
+footer{
+    font-size: 50px;
+}
+.footertext{
+    font-family: "Audiowide", sans-serif;
+}
+#comment{
+    min-height: 150px;
+}
+.comment{
+    font-size: 20px;
+}
+form img{
+    width: 200px;
+}
+#forma{
+    background: whitesmoke;
+}
+.Bgchange{
+    transition: background-color 1s ease-in-out 0s;
+}
+.btn-large{
+    transform: scale(1.15,1.15);
+}
+.male, .female{
+    border: 5px solid white;
+}
+.male{
+    background-color: rgba(146, 250, 250, 0.664);
+    border-radius: 20px;
+}
+.male:hover{
+    background-color: rgba(213, 253, 253, 0.664);
+}
+.female{
+    background-color: rgba(255, 192, 203, 0.616);
+    border-radius: 20px;
+}
+.female:hover{
+    background-color: rgba(247, 211, 217, 0.616); 
+}
+.buttonselected{
+    border: 5px solid black;
+}
+.FormText{
+    font-size: 20px;
+    font-family: 'Audiowide', sans-serif;
+}
+#card-container .card{
+    transition: transform 0.4s ease-in;
+    cursor: pointer;
+}
+#SubmitButton{
+    transition: transform 0.3s ease-in-out 0s;
+}
+#SubmitButton:hover{
+    transform: translateY(-10px) scale(1.2);
+}
+#cart{
+    max-width: 40px;
+}
+#card-container img{
+    max-width: 150px;
+    height: auto;
+}
+#card-container .card-body{
+    background-color: white;
+    border: 3px solid black;
+}
+#card-container .card:hover{
+    transition:transform 0.3s ease-out;
+} 
+#card-container .card:hover{
+    transform:scale(1.05,1.05);
+    z-index: 1;
+} 
+.Cartbtn{
+    padding: 0!important;
+    border: none !important;
+    position: relative;
+}
+#numberOfCartItems{
+    position: absolute;
+    top:-5px;
+    right:35px;
+}
+.AmountOfItem{
+    max-width: 30px!important;
+}
+.Amount{
+    max-width: 100px!important;
+}
+.InCartItem img{
+    max-width: 120px;
+    height: auto;
+}
+.offcanvas{
+    width: 500px!important;
+}
+.deletebtn img{
+    max-width: 35px !important;
+    height: auto;
+}
+.deletebtn{
+    padding: 0!important;
+    border: none !important;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.ItemContainerInCart{
+    transition:transform 0.3s ease-in-out;
+    position: relative;
+}
+.ItemContainerInCart:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+}
+.ShopItemHeader{
+    height: 20%;
+}
+.ShopItemFooter{
+    height: 30%;
+}
+.ShopItemContent{
+    height: 50%;
+}
